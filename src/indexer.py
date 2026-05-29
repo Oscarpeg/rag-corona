@@ -108,6 +108,11 @@ def build_index(reset: bool = False) -> chromadb.Collection:
         print("No se encontraron archivos .md en data/processed/")
         return collection
 
+    # Checkpointing: IDs ya presentes en la colección → se saltarán
+    existing_ids = set(collection.get(include=[])["ids"])
+    if existing_ids:
+        print(f"  Checkpointing: {len(existing_ids)} chunks ya indexados — se saltarán.\n")
+
     total_docs  = 0
     total_files = len(md_files)
 
@@ -134,6 +139,8 @@ def build_index(reset: bool = False) -> chromadb.Collection:
 
         for chunk_idx, chunk in enumerate(chunks):
             cid  = _chunk_id(producto, chunk["metadata"]["seccion_num"], chunk_idx)
+            if cid in existing_ids:
+                continue  # ya indexado
             emb  = get_embedding(chunk["texto"])
 
             # ChromaDB requiere valores de metadata de tipos simples

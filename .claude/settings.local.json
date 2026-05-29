@@ -40,7 +40,15 @@
       "Bash(sudo dnf install -y tesseract tesseract-langpack-spa)",
       "Bash(conda install *)",
       "Bash(tesseract --version)",
-      "Bash(ps *)"
+      "Bash(ps *)",
+      "Bash(ssh-keyscan github.com)",
+      "Bash(git config *)",
+      "Bash(~/.conda/envs/rag-env/bin/python *)",
+      "Bash(conda info *)",
+      "Read(//home/ec2-user/anaconda3/envs/**)",
+      "Read(//home/ec2-user/miniconda3/**)",
+      "Read(//opt/**)",
+      "Bash(grep -v \"^$\")"
     ]
   }
 }
