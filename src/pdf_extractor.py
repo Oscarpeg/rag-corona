@@ -31,6 +31,17 @@ _SEC_PAT = re.compile(
 )
 _CONTINUA = re.compile(r'\(contin[uú]a\)', re.IGNORECASE)
 
+_RUIDO_PAT = re.compile(
+    r'^[^\n]*(?:'
+    r'CONTINÚA EN LA SIGUIENTE PÁGINA'
+    r'|según Decreto 1496 de 2018'
+    r'|Emisión:'
+    r'|Versión:'
+    r'|Página\s'
+    r')[^\n]*$',
+    re.MULTILINE | re.IGNORECASE,
+)
+
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 
@@ -45,6 +56,81 @@ def _normalizar_encabezados(md: str) -> str:
         return f"## Sección {num}: {titulo}" if (num := int(m.group(1))) else ""
 
     return _SEC_PAT.sub(_reemplazar, md)
+
+
+def _limpiar_ruido(md: str) -> str:
+    """Elimina líneas de encabezados, pies de página y metadatos de impresión."""
+    return _RUIDO_PAT.sub('', md)
+
+
+def _inject_missing_section_headers(md: str, secciones_raw: dict, texto_plano: str) -> str:
+    """
+    Para PDFs donde pymupdf4llm omite encabezados de sección (p.ej. cuando
+    están embebidos en bloques de imagen/layout), inyecta los '## Sección N:'
+    faltantes usando dos estrategias en cascada:
+
+    1. Ancla estructural: busca 'N.M' (sub-epígrafe) al inicio de línea.
+    2. Ancla por frase: toma frases del texto crudo de cada sección y las
+       busca en el markdown; inyecta el encabezado antes de la línea que
+       contiene la primera frase encontrada.
+
+    La inyección se realiza en orden INVERSO de posición para no desplazar
+    los offsets de secciones posteriores.
+    """
+    presentes = {
+        int(m.group(1))
+        for m in re.finditer(r'^## Sección (\d+):', md, re.MULTILINE | re.IGNORECASE)
+    }
+    faltantes = sorted(set(secciones_raw.keys()) - presentes)
+    if not faltantes:
+        return md
+
+    cola: list[tuple[int, int, str]] = []   # (posición, sec_num, header)
+
+    for sec_num in faltantes:
+        titulo = secciones_raw[sec_num]["titulo"]
+        header = f"## Sección {sec_num}: {titulo}\n\n"
+        pos    = None
+
+        # Estrategia 1: sub-epígrafe N.M al inicio de línea
+        for sub in range(1, 5):
+            m = re.search(
+                rf'^(?:\*{{1,2}})?[ \t]*{sec_num}\.{sub}[ \t]+\S',
+                md, re.MULTILINE,
+            )
+            if m:
+                pos = m.start()
+                logger.info("Sección %d: ancla estructural %d.%d.", sec_num, sec_num, sub)
+                break
+
+        # Estrategia 2: frase del texto crudo
+        if pos is None:
+            header_end = texto_plano.find('\n', secciones_raw[sec_num]["inicio"])
+            body_raw   = texto_plano[header_end: header_end + 400].strip()
+            words      = body_raw.split()
+            for start_w in range(0, min(20, len(words) - 4)):
+                frase = ' '.join(words[start_w: start_w + 5])
+                if len(frase) < 15:
+                    continue
+                m = re.search(re.escape(frase[:40]), md, re.IGNORECASE)
+                if m:
+                    # Retroceder al inicio de la línea que contiene el match
+                    line_start = md.rfind('\n', 0, m.start()) + 1
+                    pos = line_start
+                    logger.info("Sección %d: ancla por frase '%s...'.", sec_num, frase[:25])
+                    break
+
+        if pos is not None:
+            cola.append((pos, sec_num, header))
+        else:
+            logger.warning("No se encontró ancla para Sección %d (%s).", sec_num, titulo)
+
+    # Inyectar de mayor a menor posición para no desplazar offsets
+    cola.sort(key=lambda x: x[0], reverse=True)
+    for pos, sec_num, header in cola:
+        md = md[:pos] + header + md[pos:]
+
+    return md
 
 
 def _pagina_a_seccion(page_idx: int, page_starts: list[int], sections_map: dict) -> tuple[int, str]:
@@ -208,8 +294,14 @@ def extract_to_markdown(pdf_path: str) -> str:
     # 3. Normalizar encabezados → ## Sección N: [Título]
     md_normalizado = _normalizar_encabezados(md_raw)
 
+    # 3b. Inyectar encabezados faltantes (PDFs donde pymupdf4llm los omite)
+    md_normalizado = _inject_missing_section_headers(md_normalizado, secciones, texto_plano)
+
     # 4. Extraer imágenes + OCR + inyectar bloques de trazabilidad
     md_final = extract_images_with_traceability(pdf_path, md_normalizado, secciones)
+
+    # 4b. Limpiar ruido de encabezados/pies de página de impresión
+    md_final = _limpiar_ruido(md_final)
 
     # 5. Guardar en data/processed/
     os.makedirs(PROCESSED_DIR, exist_ok=True)
