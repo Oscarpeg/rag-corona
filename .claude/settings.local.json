@@ -50,7 +50,8 @@
       "Read(//opt/**)",
       "Bash(grep -v \"^$\")",
       "Bash(python3 -c \"import sys,json; [print\\(m['name']\\) for m in json.load\\(sys.stdin\\).get\\('models',[]\\)]\")",
-      "Bash(top -b -n 1)"
+      "Bash(top -b -n 1)",
+      "Bash(python3 *)"
     ]
   }
 }
