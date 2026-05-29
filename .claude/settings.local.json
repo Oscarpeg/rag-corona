@@ -5,7 +5,18 @@
       "Bash(git add *)",
       "Bash(git commit *)",
       "Bash(awk 'NR>1{gsub\\(/[^\\\\/]*\\\\//,\"│   \",$0\\); print \"├──\",$0}')",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(ssh-keygen *)",
+      "Bash(ssh *)",
+      "Bash(git remote *)",
+      "Bash(/home/ec2-user/anaconda3/envs/rag-env/bin/pip install *)",
+      "Bash(/home/ec2-user/anaconda3/envs/rag-env/bin/python *)",
+      "Bash(bash *)",
+      "Bash(curl -fsSL https://ollama.com/install.sh)",
+      "Bash(sh)",
+      "Bash(curl -s http://localhost:11434/api/tags)",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\('Ollama UP — modelos:', [m['name'] for m in d.get\\('models',[]\\)]\\)\")",
+      "Bash(ollama pull *)"
     ]
   }
 }
