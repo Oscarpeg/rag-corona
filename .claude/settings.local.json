@@ -16,7 +16,9 @@
       "Bash(sh)",
       "Bash(curl -s http://localhost:11434/api/tags)",
       "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\('Ollama UP — modelos:', [m['name'] for m in d.get\\('models',[]\\)]\\)\")",
-      "Bash(ollama pull *)"
+      "Bash(ollama pull *)",
+      "Bash(sudo yum install -y tesseract tesseract-langpack-spa)",
+      "Bash(conda run *)"
     ]
   }
 }

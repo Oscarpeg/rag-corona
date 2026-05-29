@@ -4,6 +4,41 @@ según Decreto 1496 de 2018
 
 
 ## Sección 1: IDENTIFICACIÓN DEL PRODUCTO
+![Imagen 1](images/FDS 29 - PINTURA PRIMERA MANO & ACABADO - CORONA _img_p1_i1.png)
+> **Nota de trazabilidad:** Elemento visual: Pictograma o gráfico de seguridad sin texto extenso
+> Imagen en Sección 1: IDENTIFICACIÓN DEL PRODUCTO.
+> Información relacionada en la sección correspondiente.
+
+![Imagen 2](images/FDS 29 - PINTURA PRIMERA MANO & ACABADO - CORONA _img_p1_i2.png)
+> **Nota de trazabilidad:** Elemento visual: Pictograma o gráfico de seguridad sin texto extenso
+> Imagen en Sección 1: IDENTIFICACIÓN DEL PRODUCTO.
+> Información relacionada en la sección correspondiente.
+
+![Imagen 3](images/FDS 29 - PINTURA PRIMERA MANO & ACABADO - CORONA _img_p1_i3.png)
+> **Nota de trazabilidad:** Elemento visual: Pictograma o gráfico de seguridad sin texto extenso
+> Imagen en Sección 1: IDENTIFICACIÓN DEL PRODUCTO.
+> Información relacionada en la sección correspondiente.
+
+![Imagen 4](images/FDS 29 - PINTURA PRIMERA MANO & ACABADO - CORONA _img_p1_i4.png)
+> **Nota de trazabilidad:** Elemento visual: Pictograma o gráfico de seguridad sin texto extenso
+> Imagen en Sección 1: IDENTIFICACIÓN DEL PRODUCTO.
+> Información relacionada en la sección correspondiente.
+
+![Imagen 5](images/FDS 29 - PINTURA PRIMERA MANO & ACABADO - CORONA _img_p1_i5.png)
+> **Nota de trazabilidad:** Elemento visual: Pictograma o gráfico de seguridad sin texto extenso
+> Imagen en Sección 1: IDENTIFICACIÓN DEL PRODUCTO.
+> Información relacionada en la sección correspondiente.
+
+![Imagen 6](images/FDS 29 - PINTURA PRIMERA MANO & ACABADO - CORONA _img_p1_i6.png)
+> **Nota de trazabilidad:** Elemento visual: Pictograma o gráfico de seguridad sin texto extenso
+> Imagen en Sección 1: IDENTIFICACIÓN DEL PRODUCTO.
+> Información relacionada en la sección correspondiente.
+
+![Imagen 7](images/FDS 29 - PINTURA PRIMERA MANO & ACABADO - CORONA _img_p1_i7.png)
+> **Nota de trazabilidad:** Elemento visual: Pictograma o gráfico de seguridad sin texto extenso
+> Imagen en Sección 1: IDENTIFICACIÓN DEL PRODUCTO.
+> Información relacionada en la sección correspondiente.
+
 
 
 **1.1** **Identificador SGA del producto:** PINTURA PRIMERA MANO & ACABADO
@@ -27,6 +62,21 @@ https://www.corona.co
 
 
 ## Sección 2: IDENTIFICACIÓN DEL PELIGRO O PELIGROS
+![Imagen 8](images/FDS 29 - PINTURA PRIMERA MANO & ACABADO - CORONA _img_p2_i1.png)
+> **Nota de trazabilidad:** Elemento visual: Pictograma o gráfico de seguridad sin texto extenso
+> Imagen en Sección 2: IDENTIFICACIÓN DEL PELIGRO O PELIGROS.
+> Información relacionada en la sección correspondiente.
+
+![Imagen 9](images/FDS 29 - PINTURA PRIMERA MANO & ACABADO - CORONA _img_p2_i2.png)
+> **Nota de trazabilidad:** Elemento visual: Pictograma o gráfico de seguridad sin texto extenso
+> Imagen en Sección 2: IDENTIFICACIÓN DEL PELIGRO O PELIGROS.
+> Información relacionada en la sección correspondiente.
+
+![Imagen 10](images/FDS 29 - PINTURA PRIMERA MANO & ACABADO - CORONA _img_p2_i3.png)
+> **Nota de trazabilidad:** Elemento visual: Pictograma o gráfico de seguridad sin texto extenso
+> Imagen en Sección 2: IDENTIFICACIÓN DEL PELIGRO O PELIGROS.
+> Información relacionada en la sección correspondiente.
+
 
 
 **2.1** **Clasificación de la sustancia o de la mezcla:**
@@ -182,6 +232,21 @@ No relevante
 
 
 ## Sección 5: MEDIDAS DE LUCHA CONTRA INCENDIOS
+![Imagen 11](images/FDS 29 - PINTURA PRIMERA MANO & ACABADO - CORONA _img_p3_i1.png)
+> **Nota de trazabilidad:** Elemento visual: Pictograma o gráfico de seguridad sin texto extenso
+> Imagen en Sección 5: MEDIDAS DE LUCHA CONTRA INCENDIOS.
+> Información relacionada en la sección correspondiente.
+
+![Imagen 12](images/FDS 29 - PINTURA PRIMERA MANO & ACABADO - CORONA _img_p3_i2.png)
+> **Nota de trazabilidad:** Elemento visual: Pictograma o gráfico de seguridad sin texto extenso
+> Imagen en Sección 5: MEDIDAS DE LUCHA CONTRA INCENDIOS.
+> Información relacionada en la sección correspondiente.
+
+![Imagen 13](images/FDS 29 - PINTURA PRIMERA MANO & ACABADO - CORONA _img_p3_i3.png)
+> **Nota de trazabilidad:** Elemento visual: Pictograma o gráfico de seguridad sin texto extenso
+> Imagen en Sección 5: MEDIDAS DE LUCHA CONTRA INCENDIOS.
+> Información relacionada en la sección correspondiente.
+
 
 
 **5.1** **Medios de extinción apropiados:**
@@ -247,6 +312,46 @@ combustibles. Para cualquier consideración relativa a la eliminación consultar
 Ver secciones 8 y 13.
 
 ## Sección 7: MANIPULACIÓN Y ALMACENAMIENTO
+![Imagen 14](images/FDS 29 - PINTURA PRIMERA MANO & ACABADO - CORONA _img_p4_i1.png)
+> **Nota de trazabilidad:** Elemento visual: Pictograma o gráfico de seguridad sin texto extenso
+> Imagen en Sección 7: MANIPULACIÓN Y ALMACENAMIENTO.
+> Información relacionada en la sección correspondiente.
+
+![Imagen 15](images/FDS 29 - PINTURA PRIMERA MANO & ACABADO - CORONA _img_p4_i2.png)
+> **Nota de trazabilidad:** Elemento visual: Pictograma o gráfico de seguridad sin texto extenso
+> Imagen en Sección 7: MANIPULACIÓN Y ALMACENAMIENTO.
+> Información relacionada en la sección correspondiente.
+
+![Imagen 16](images/FDS 29 - PINTURA PRIMERA MANO & ACABADO - CORONA _img_p4_i3.png)
+> **Nota de trazabilidad:** Elemento visual: Pictograma o gráfico de seguridad sin texto extenso
+> Imagen en Sección 7: MANIPULACIÓN Y ALMACENAMIENTO.
+> Información relacionada en la sección correspondiente.
+
+![Imagen 17](images/FDS 29 - PINTURA PRIMERA MANO & ACABADO - CORONA _img_p4_i4.png)
+> **Nota de trazabilidad:** Elemento visual: Pictograma o gráfico de seguridad sin texto extenso
+> Imagen en Sección 7: MANIPULACIÓN Y ALMACENAMIENTO.
+> Información relacionada en la sección correspondiente.
+
+![Imagen 18](images/FDS 29 - PINTURA PRIMERA MANO & ACABADO - CORONA _img_p4_i5.png)
+> **Nota de trazabilidad:** Elemento visual: Pictograma o gráfico de seguridad sin texto extenso
+> Imagen en Sección 7: MANIPULACIÓN Y ALMACENAMIENTO.
+> Información relacionada en la sección correspondiente.
+
+![Imagen 19](images/FDS 29 - PINTURA PRIMERA MANO & ACABADO - CORONA _img_p4_i6.png)
+> **Nota de trazabilidad:** Elemento visual: Pictograma o gráfico de seguridad sin texto extenso
+> Imagen en Sección 7: MANIPULACIÓN Y ALMACENAMIENTO.
+> Información relacionada en la sección correspondiente.
+
+![Imagen 20](images/FDS 29 - PINTURA PRIMERA MANO & ACABADO - CORONA _img_p4_i7.png)
+> **Nota de trazabilidad:** Elemento visual: Pictograma o gráfico de seguridad sin texto extenso
+> Imagen en Sección 7: MANIPULACIÓN Y ALMACENAMIENTO.
+> Información relacionada en la sección correspondiente.
+
+![Imagen 21](images/FDS 29 - PINTURA PRIMERA MANO & ACABADO - CORONA _img_p4_i8.png)
+> **Nota de trazabilidad:** Elemento visual: Pictograma o gráfico de seguridad sin texto extenso
+> Imagen en Sección 7: MANIPULACIÓN Y ALMACENAMIENTO.
+> Información relacionada en la sección correspondiente.
+
 
 **7.1** **Precauciones que se deben tomar para garantizar una manipulación segura:**
 
@@ -321,6 +426,31 @@ Salvo las indicaciones ya especificadas no es preciso realizar ninguna recomenda
 
 
 ## Sección 8: CONTROLES DE EXPOSICIÓN/PROTECCIÓN PERSONAL
+![Imagen 22](images/FDS 29 - PINTURA PRIMERA MANO & ACABADO - CORONA _img_p5_i1.png)
+> **Nota de trazabilidad:** Elemento visual: Pictograma o gráfico de seguridad sin texto extenso
+> Imagen en Sección 8: CONTROLES DE EXPOSICIÓN/PROTECCIÓN PERSONAL.
+> Información relacionada en la sección correspondiente.
+
+![Imagen 23](images/FDS 29 - PINTURA PRIMERA MANO & ACABADO - CORONA _img_p5_i2.png)
+> **Nota de trazabilidad:** Elemento visual: Pictograma o gráfico de seguridad sin texto extenso
+> Imagen en Sección 8: CONTROLES DE EXPOSICIÓN/PROTECCIÓN PERSONAL.
+> Información relacionada en la sección correspondiente.
+
+![Imagen 24](images/FDS 29 - PINTURA PRIMERA MANO & ACABADO - CORONA _img_p5_i3.png)
+> **Nota de trazabilidad:** Elemento visual: Pictograma o gráfico de seguridad sin texto extenso
+> Imagen en Sección 8: CONTROLES DE EXPOSICIÓN/PROTECCIÓN PERSONAL.
+> Información relacionada en la sección correspondiente.
+
+![Imagen 25](images/FDS 29 - PINTURA PRIMERA MANO & ACABADO - CORONA _img_p5_i4.png)
+> **Nota de trazabilidad:** Elemento visual: Pictograma o gráfico de seguridad sin texto extenso
+> Imagen en Sección 8: CONTROLES DE EXPOSICIÓN/PROTECCIÓN PERSONAL.
+> Información relacionada en la sección correspondiente.
+
+![Imagen 26](images/FDS 29 - PINTURA PRIMERA MANO & ACABADO - CORONA _img_p5_i5.png)
+> **Nota de trazabilidad:** Elemento visual: Pictograma o gráfico de seguridad sin texto extenso
+> Imagen en Sección 8: CONTROLES DE EXPOSICIÓN/PROTECCIÓN PERSONAL.
+> Información relacionada en la sección correspondiente.
+
 
 
 **8.1** **Parámetros de control:**
@@ -482,6 +612,21 @@ su envase al medio ambiente. Para información adicional ver epígrafe 7.1.D
 
 
 ## Sección 9: PROPIEDADES FÍSICAS Y QUÍMICAS Y CARACTERÍSTICAS DE SEGURIDAD
+![Imagen 27](images/FDS 29 - PINTURA PRIMERA MANO & ACABADO - CORONA _img_p6_i1.png)
+> **Nota de trazabilidad:** Elemento visual: Pictograma o gráfico de seguridad sin texto extenso
+> Imagen en Sección 9: PROPIEDADES FÍSICAS Y QUÍMICAS Y CARACTERÍSTICAS DE SEGURIDAD.
+> Información relacionada en la sección correspondiente.
+
+![Imagen 28](images/FDS 29 - PINTURA PRIMERA MANO & ACABADO - CORONA _img_p6_i2.png)
+> **Nota de trazabilidad:** Elemento visual: Pictograma o gráfico de seguridad sin texto extenso
+> Imagen en Sección 9: PROPIEDADES FÍSICAS Y QUÍMICAS Y CARACTERÍSTICAS DE SEGURIDAD.
+> Información relacionada en la sección correspondiente.
+
+![Imagen 29](images/FDS 29 - PINTURA PRIMERA MANO & ACABADO - CORONA _img_p6_i3.png)
+> **Nota de trazabilidad:** Elemento visual: Pictograma o gráfico de seguridad sin texto extenso
+> Imagen en Sección 9: PROPIEDADES FÍSICAS Y QUÍMICAS Y CARACTERÍSTICAS DE SEGURIDAD.
+> Información relacionada en la sección correspondiente.
+
 
 
 **9.1** **Información de propiedades físicas y químicas básicas:**
@@ -657,6 +802,21 @@ descomposición, como consecuencia de la misma pueden liberarse mezclas compleja
 
 
 ## Sección 11: INFORMACIÓN TOXICOLÓGICA
+![Imagen 30](images/FDS 29 - PINTURA PRIMERA MANO & ACABADO - CORONA _img_p7_i1.png)
+> **Nota de trazabilidad:** Elemento visual: Pictograma o gráfico de seguridad sin texto extenso
+> Imagen en Sección 11: INFORMACIÓN TOXICOLÓGICA.
+> Información relacionada en la sección correspondiente.
+
+![Imagen 31](images/FDS 29 - PINTURA PRIMERA MANO & ACABADO - CORONA _img_p7_i2.png)
+> **Nota de trazabilidad:** Elemento visual: Pictograma o gráfico de seguridad sin texto extenso
+> Imagen en Sección 11: INFORMACIÓN TOXICOLÓGICA.
+> Información relacionada en la sección correspondiente.
+
+![Imagen 32](images/FDS 29 - PINTURA PRIMERA MANO & ACABADO - CORONA _img_p7_i3.png)
+> **Nota de trazabilidad:** Elemento visual: Pictograma o gráfico de seguridad sin texto extenso
+> Imagen en Sección 11: INFORMACIÓN TOXICOLÓGICA.
+> Información relacionada en la sección correspondiente.
+
 
 
 **11.1 Información sobre las posibles vías de exposición:**
@@ -792,6 +952,21 @@ El lijado repetido de las superficies de película seca puede producir riesgo de
 
 
 ## Sección 12: INFORMACIÓN ECOTOXICOLÓGICA
+![Imagen 33](images/FDS 29 - PINTURA PRIMERA MANO & ACABADO - CORONA _img_p8_i1.png)
+> **Nota de trazabilidad:** Elemento visual: Pictograma o gráfico de seguridad sin texto extenso
+> Imagen en Sección 12: INFORMACIÓN ECOTOXICOLÓGICA.
+> Información relacionada en la sección correspondiente.
+
+![Imagen 34](images/FDS 29 - PINTURA PRIMERA MANO & ACABADO - CORONA _img_p8_i2.png)
+> **Nota de trazabilidad:** Elemento visual: Pictograma o gráfico de seguridad sin texto extenso
+> Imagen en Sección 12: INFORMACIÓN ECOTOXICOLÓGICA.
+> Información relacionada en la sección correspondiente.
+
+![Imagen 35](images/FDS 29 - PINTURA PRIMERA MANO & ACABADO - CORONA _img_p8_i3.png)
+> **Nota de trazabilidad:** Elemento visual: Pictograma o gráfico de seguridad sin texto extenso
+> Imagen en Sección 12: INFORMACIÓN ECOTOXICOLÓGICA.
+> Información relacionada en la sección correspondiente.
+
 
 
 No se disponen de datos experimentales de la mezcla en sí misma relativos a las propiedades ecotoxicológicas.
@@ -909,6 +1084,21 @@ CONPES 3868 - Política de gestión del riesgo asociado al uso de sustancias qu�
 
 
 ## Sección 16: OTRAS INFORMACIONES
+![Imagen 36](images/FDS 29 - PINTURA PRIMERA MANO & ACABADO - CORONA _img_p9_i1.png)
+> **Nota de trazabilidad:** Elemento visual: Pictograma o gráfico de seguridad sin texto extenso
+> Imagen en Sección 16: OTRAS INFORMACIONES.
+> Información relacionada en la sección correspondiente.
+
+![Imagen 37](images/FDS 29 - PINTURA PRIMERA MANO & ACABADO - CORONA _img_p9_i2.png)
+> **Nota de trazabilidad:** Elemento visual: Pictograma o gráfico de seguridad sin texto extenso
+> Imagen en Sección 16: OTRAS INFORMACIONES.
+> Información relacionada en la sección correspondiente.
+
+![Imagen 38](images/FDS 29 - PINTURA PRIMERA MANO & ACABADO - CORONA _img_p9_i3.png)
+> **Nota de trazabilidad:** Elemento visual: Pictograma o gráfico de seguridad sin texto extenso
+> Imagen en Sección 16: OTRAS INFORMACIONES.
+> Información relacionada en la sección correspondiente.
+
 
 
 **Legislación aplicable a fichas de datos de seguridad:**
