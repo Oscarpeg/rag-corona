@@ -25,6 +25,19 @@ def _productos_disponibles() -> list[str]:
     return sorted(set(m["producto"] for m in items["metadatas"]))
 
 
+def _limpiar(texto: str) -> str:
+    """Elimina etiquetas HTML y normaliza saltos de línea para consola."""
+    import re
+    texto = re.sub(r'<br\s*/?>', ' ', texto, flags=re.IGNORECASE)
+    texto = re.sub(r'<[^>]+>', '', texto)          # cualquier otra etiqueta
+    texto = re.sub(r'\s{2,}', ' ', texto)           # espacios múltiples
+    texto = texto.strip()
+    # Truncar títulos muy largos (tablas completas en seccion_titulo)
+    if len(texto) > 80:
+        texto = texto[:77] + "..."
+    return texto
+
+
 def _wrap(text: str, width: int = 72, indent: str = "  ") -> str:
     lines = []
     for paragraph in text.split("\n"):
@@ -65,9 +78,11 @@ def _print_resultado(resultado: dict) -> None:
     print(_wrap(resultado["respuesta"]))
     print()
     for f in resultado["fuentes"]:
+        titulo  = _limpiar(f["seccion_titulo"])
+        producto = _limpiar(f["producto"])
         print(
-            f"  Fuente: Sección {f['seccion_num']} — {f['seccion_titulo']}"
-            f" | Producto: {f['producto']}"
+            f"  Fuente: Sección {f['seccion_num']} — {titulo}"
+            f" | Producto: {producto}"
             f" | Score: {f['score']:.4f}"
         )
     print(f"\n  Tiempo: {resultado['tiempo_seg']}s")
