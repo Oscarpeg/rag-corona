@@ -1,0 +1,19 @@
+# ── Fase 1: Extracción PDF → Markdown ─────────────────────────────────────────
+pymupdf4llm>=0.0.17        # PDF nativo a Markdown con tablas tipo pipe
+PyMuPDF>=1.24.0            # Backend fitz para pymupdf4llm
+pytesseract>=0.3.13        # OCR sobre imágenes escaneadas dentro del PDF
+Pillow>=10.0.0             # Procesamiento de imágenes (PIL)
+
+# ── Fase 2: Embeddings, vector store y pipeline RAG ───────────────────────────
+chromadb==1.5.9
+ollama==0.6.2
+langchain==1.3.2
+langchain-community==0.4.2
+langchain-core==1.4.0
+langchain-ollama==1.1.0
+langchain-text-splitters==1.1.2
+
+# ── Modelos Ollama (descargar con ollama pull) ─────────────────────────────────
+# ollama pull nomic-embed-text   # embeddings semánticos
+# ollama pull llama3             # LLM generativo (CPU)
+# ollama pull llama3.1           # LLM generativo (GPU, mejor español)

@@ -51,7 +51,11 @@
       "Bash(grep -v \"^$\")",
       "Bash(python3 -c \"import sys,json; [print\\(m['name']\\) for m in json.load\\(sys.stdin\\).get\\('models',[]\\)]\")",
       "Bash(top -b -n 1)",
-      "Bash(python3 *)"
+      "Bash(python3 *)",
+      "Bash(/home/ec2-user/anaconda3/envs/rag-env/bin/pip freeze *)",
+      "Bash(/home/ec2-user/anaconda3/envs/rag-env/bin/pip list *)",
+      "Bash(/home/ec2-user/anaconda3/base/bin/pip list *)",
+      "Bash(/home/ec2-user/anaconda3/bin/pip list *)"
     ]
   }
 }
