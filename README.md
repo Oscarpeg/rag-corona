@@ -1,7 +1,25 @@
 # RAG-CORONA — Sistema de Auditoría Semántica GHS
 **Grupo J · Universidad · 2026**
 
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
+![LLM](https://img.shields.io/badge/LLM-llama3%20·%20Ollama-8A2BE2)
+![VectorStore](https://img.shields.io/badge/VectorStore-ChromaDB-orange)
+![Embeddings](https://img.shields.io/badge/Embeddings-nomic--embed--text-teal)
+![Sin APIs de pago](https://img.shields.io/badge/APIs%20de%20pago-ninguna-brightgreen)
+
 Sistema RAG (*Retrieval-Augmented Generation*) para consultar fichas de datos de seguridad (FDS) de pinturas CORONA en formato GHS. Extrae, indexa y responde preguntas técnicas sobre 17 productos utilizando únicamente modelos locales y sin APIs de pago.
+
+---
+
+## ✨ Features
+
+- **Extracción estructurada de PDFs** — `pymupdf4llm` para texto nativo + `pytesseract` como fallback OCR para páginas escaneadas
+- **16 secciones GHS por ficha** — normalización y mapeo automático de encabezados (`section_mapper.py`)
+- **Indexado vectorial persistente** — ChromaDB con cosine similarity; checkpointing para re-indexados parciales
+- **Consulta en lenguaje natural** — CLI interactiva con listado de productos, historial y comandos de ayuda
+- **Pipeline RAG completo** — retrieve → build prompt → LLM local (llama3 / llama3.1 según hardware)
+- **Trazabilidad de fuentes** — cada respuesta cita producto, sección GHS y score semántico
+- **Evaluación automatizada** — 20 preguntas de ground truth con métricas de acierto exacto y fallback
 
 ---
 
@@ -63,13 +81,18 @@ rag-corona/
 │   └── chroma_db/      # Índice vectorial ChromaDB (generado por indexer.py)
 ├── src/
 │   ├── pdf_extractor.py   # Fase 1: PDF → Markdown estructurado
+│   ├── section_mapper.py  # Fase 1: Detección y normalización de secciones GHS
 │   ├── chunker.py         # Fase 2: Segmentación semántica por sección GHS
 │   ├── indexer.py         # Fase 2: Embeddings + carga a ChromaDB
 │   ├── retriever.py       # Fase 2: Búsqueda semántica sobre ChromaDB
 │   ├── rag_prompt.py      # Fase 2: Constructor de prompts RAG
 │   ├── rag_pipeline.py    # Fase 2: Pipeline completo retrieve → prompt → LLM
 │   ├── demo.py            # Demo CLI interactiva para la presentación
-│   └── run_pipeline.py    # Orquestador de extracción masiva
+│   ├── run_pipeline.py    # Orquestador de extracción masiva
+│   ├── evaluate.py        # Evaluación piloto (3 preguntas, salida JSON)
+│   ├── verify_index.py    # Auditoría de relevancia semántica del índice
+│   ├── test_env.py        # Verificación del entorno (librerías + Ollama)
+│   └── startup.sh         # Script de arranque de Ollama
 ├── evaluation/
 │   ├── ground_truth.csv         # 20 preguntas técnicas con respuesta esperada
 │   ├── run_evaluation.py        # Evaluación automatizada con métricas
@@ -146,3 +169,9 @@ Genera `evaluation/resultados_rag.csv` y `evaluation/metricas_rag.json`.
 - Los PDFs originales deben colocarse en `data/raw/` antes de ejecutar `run_pipeline.py`.
 - El directorio `data/chroma_db/` está excluido del repositorio (`.gitignore`); debe regenerarse localmente con `indexer.py`.
 - Al reiniciar la instancia EC2/SageMaker es necesario re-iniciar el agente SSH: `eval "$(ssh-agent -s)" && ssh-add ~/.ssh/id_ed25519`.
+
+---
+
+## 📸 Screenshots
+
+> 📷 Screenshots pendientes — próximamente
