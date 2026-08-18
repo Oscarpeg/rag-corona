@@ -174,4 +174,5 @@ Genera `evaluation/resultados_rag.csv` y `evaluation/metricas_rag.json`.
 
 ## 📸 Screenshots
 
-> 📷 Screenshots pendientes — próximamente
+<img width="829" height="596" alt="image" src="https://github.com/user-attachments/assets/ac9f8a38-2fcc-4906-9b54-bf3a33d0eb47" />
+
